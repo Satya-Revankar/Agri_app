@@ -1,0 +1,978 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="253dp"
+            android:background="@drawable/grey">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="253dp"
+                android:background="@drawable/ultashp1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="6dp"
+                    android:text="Farmer name"
+                    android:textColor="@color/black"
+                    android:textSize="16dp"
+                    android:layout_gravity="center_horizontal"
+                    android:fontFamily="sans-serif-condensed"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="1dp"
+                    android:text="HANAMANTAGOUDA BHAGAWANTAGOUDRA GOUDAR "
+                    android:textColor="#3A3232"
+                    android:textSize="13dp" />
+
+                <TextView
+                    android:layout_width="108dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="4dp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="Pond size"
+                    android:textColor="@color/black"
+                    android:textSize="14dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="124dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginStart="5dp"
+                    android:text="100 x 100 x 12"
+                    android:textColor="#3A3232"
+                    android:textSize="14dp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:layout_gravity="center_horizontal"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:fontFamily="sans-serif-condensed"
+                        android:text="Land acre"
+                        android:textColor="@color/black"
+                        android:textSize="14dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="40dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="10dp"
+                        android:text=" 24"
+                        android:textColor="#373535"
+                        android:textSize="14dp" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:fontFamily="sans-serif-condensed"
+                        android:text="Gunta"
+                        android:textColor="#373535"
+                        android:textSize="14dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="50dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="10dp"
+                        android:text=" 4"
+                        android:textColor="#373535"
+                        android:textSize="14dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:fontFamily="sans-serif-condensed"
+                        android:text="Survey num"
+                        android:textColor="@color/black"
+                        android:textSize="14dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="142dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="10dp"
+                        android:text=" 243/*A23"
+                        android:textColor="#373535"
+                        android:textSize="14dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="80dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:fontFamily="sans-serif-condensed"
+                        android:text="Pond type"
+                        android:textColor="@color/black"
+                        android:textSize="14dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="142dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:text=" Finance"
+                        android:textColor="#373535"
+                        android:textSize="14dp" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="110dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="6dp"
+                    android:text="JLG name"
+                    android:textColor="@color/black"
+                    android:textSize="16dp"
+                    android:layout_gravity="center_horizontal"
+                    android:fontFamily="sans-serif-condensed"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="1dp"
+                    android:text="KRANTHI VEER SANGOLLI RAYANNA RAITHAR SANGHA BELLIKINDI"
+                    android:textColor="#3A3232"
+                    android:textSize="13dp" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <!-- <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:background="#EAECEF"></LinearLayout>-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="410dp"
+            android:background="@drawable/lite">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="410dp"
+                android:background="@drawable/ultashp2"
+                android:orientation="vertical">
+
+
+                <!--  <Spinner
+                android:id="@+id/sp_leavtype"
+                style="@style/holoSpinner"
+                android:layout_width="150dp"
+                android:theme="@style/customScrollbar"
+                android:layout_height="30dp"
+                android:layout_marginLeft="40dp"
+                android:dropDownVerticalOffset="30dp"
+                android:background="@drawable/bg"
+                android:popupBackground="@drawable/popup_bg"
+                android:spinnerMode="dropdown" />-->
+                <!--  <TextView
+                android:layout_width="64dp"
+                android:layout_height="10dp"
+                android:layout_marginStart="65dp"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/spnr2"
+                android:text="Soil Type"
+                android:textColor="#3A3232"
+                android:textSize="9dp" />
+-->
+                <!--  <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="7dp"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="2dp"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/spnr1">
+
+
+                            <Spinner
+                                android:id="@+id/spinn"
+                                android:layout_width="149dp"
+                                android:layout_height="30dp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="150dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:background="@drawable/spnr1">
+
+                            <Spinner
+                                android:id="@+id/spinn2"
+                                android:layout_width="149dp"
+                                android:layout_height="30dp" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+
+                </LinearLayout>
+-->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="125dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="5dp"
+                        android:fontFamily="sans-serif-condensed"
+                        android:text="Machine Details"
+                        android:textColor="@color/black"
+                        android:textSize="14dp"
+                        android:textStyle="bold" />
+
+
+                    <TextView
+                        android:layout_width="130dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:fontFamily="sans-serif-condensed"
+                        android:text="Completed"
+                        android:textColor="#373535"
+                        android:textSize="14dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="358dp"
+                    android:layout_height="130dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="5dp"
+                    android:orientation="horizontal">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="108dp"
+                        android:layout_height="120dp"
+                        android:layout_margin="3dp"
+                        app:cardBackgroundColor="@color/white"
+                        app:cardCornerRadius="7dp"
+                        app:cardElevation="10dp"
+                        app:cardMaxElevation="8dp">
+
+
+                        <ImageView
+                            android:id="@+id/imageView"
+                            android:layout_width="108dp"
+                            android:layout_height="82dp"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentTop="true"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/farm1" />
+
+                        <TextView
+                            android:id="@+id/imgname1"
+                            android:layout_width="105dp"
+                            android:layout_height="37dp"
+                            android:layout_marginTop="85dp"
+                            android:background="@drawable/shape3"
+                            android:gravity="center"
+                            android:orientation="horizontal"
+                            android:text="Before Construction"
+                            android:textColor="@color/black"
+                            android:textSize="14dp" />
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="108dp"
+                        android:layout_height="120dp"
+                        android:layout_margin="3dp"
+                        app:cardBackgroundColor="@color/white"
+                        app:cardCornerRadius="7dp"
+                        app:cardElevation="10dp"
+                        app:cardMaxElevation="8dp">
+
+                        <ImageView
+                            android:id="@+id/imageView2"
+                            android:layout_width="108dp"
+                            android:layout_height="82dp"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentTop="true"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/farm2" />
+
+
+                        <TextView
+                            android:id="@+id/imgname2"
+                            android:layout_width="107dp"
+                            android:layout_height="37dp"
+                            android:layout_marginTop="85dp"
+                            android:background="@drawable/shape3"
+                            android:gravity="center"
+                            android:orientation="horizontal"
+                            android:text="During Construction"
+                            android:textColor="@color/black"
+                            android:textSize="14dp" />
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="108dp"
+                        android:layout_height="120dp"
+                        android:layout_margin="3dp"
+                        app:cardBackgroundColor="@color/white"
+                        app:cardCornerRadius="7dp"
+                        app:cardElevation="10dp"
+                        app:cardMaxElevation="8dp">
+
+                        <ImageView
+                            android:id="@+id/imageView3"
+                            android:layout_width="108dp"
+                            android:layout_height="82dp"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentTop="true"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/farm3" />
+
+
+                        <TextView
+                            android:id="@+id/imgname3"
+                            android:layout_width="106dp"
+                            android:layout_height="38dp"
+                            android:layout_marginTop="85dp"
+                            android:background="@drawable/shape3"
+                            android:gravity="center"
+                            android:orientation="horizontal"
+                            android:text="After Construction"
+                            android:textColor="@color/black"
+                            android:textSize="14dp" />
+
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="357dp"
+                    android:layout_height="27dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="-2dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+
+                        android:layout_width="106dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="3312"
+                        android:textColor="@color/black"
+                        android:textSize="14dp" />
+
+                    <TextView
+
+                        android:layout_width="119dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="3313"
+                        android:textColor="@color/black"
+                        android:textSize="14dp" />
+
+                    <TextView
+
+                        android:layout_width="113dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="3314"
+                        android:textColor="@color/black"
+                        android:textSize="14dp" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:text="Please submit the data in online mode for accurate pond location"
+                    android:textColor="#C80707"
+                    android:textSize="14dp"
+                    />
+
+
+                <TextView
+                    android:layout_width="170dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="Form pond location"
+                    android:textColor="@color/black"
+                    android:textSize="14dp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="289dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+
+                        android:layout_width="85dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="16dp"
+                        android:fontFamily="sans-serif-condensed"
+                        android:gravity="center_vertical"
+                        android:text="Locate pond"
+                        android:textColor="#02A3EC"
+                        android:textSize="14dp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/img"
+                        android:layout_width="39dp"
+                        android:layout_height="40dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginStart="2dp"
+                        android:layout_marginTop="2dp"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/mappin" />
+
+                    <TextView
+
+                        android:layout_width="132dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="15dp"
+                        android:fontFamily="sans-serif-condensed"
+                        android:gravity="center_vertical"
+                        android:text="Location Confermed"
+                        android:textColor="#4CAF50"
+                        android:textSize="14dp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="24dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="3dp"
+                    app:cardBackgroundColor="#F2F3F4"
+                    app:cardCornerRadius="7dp"
+                    app:cardElevation="10dp"
+                    app:cardMaxElevation="8dp">
+
+                    <LinearLayout
+                        android:layout_width="289dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_horizontal"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="81dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginStart="1dp"
+                            android:fontFamily="sans-serif-condensed"
+                            android:gravity="center_vertical"
+                            android:text="Latitude"
+                            android:textColor="@color/black"
+                            android:textSize="14dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="142dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginStart="10dp"
+                            android:gravity="center_vertical"
+                            android:text=" 15.67473857894"
+                            android:textColor="#373535"
+                            android:textSize="14dp" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="24dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="3dp"
+                    app:cardBackgroundColor="#F2F3F4"
+                    app:cardCornerRadius="7dp"
+                    app:cardElevation="10dp"
+                    app:cardMaxElevation="8dp">
+
+                    <LinearLayout
+                        android:layout_width="289dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_horizontal"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="81dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginStart="1dp"
+                            android:fontFamily="sans-serif-condensed"
+                            android:gravity="center_vertical"
+                            android:text="Longtude"
+                            android:textColor="@color/black"
+                            android:textSize="14dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="142dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginStart="10dp"
+                            android:gravity="center_vertical"
+                            android:text=" 75.67473857894"
+                            android:textColor="#373535"
+                            android:textSize="14dp" />
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="6dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="161dp"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/spnr1">
+
+                        <LinearLayout
+                            android:layout_width="158dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="5dp"
+                            android:background="@drawable/spnr1"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="102dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginTop="-5dp"
+                                android:fontFamily="sans-serif-condensed"
+                                android:text=" soil type"
+                                android:textColor="#E65F55"
+                                android:textSize="14dp"
+                                android:textStyle="bold" />
+
+
+                            <Spinner
+                                android:id="@+id/spinner5"
+                                android:layout_width="match_parent"
+                                android:layout_height="23dp" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="161dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="158dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="5dp"
+                            android:background="@drawable/spnr1"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="102dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="5dp"
+                                android:layout_marginTop="-5dp"
+                                android:fontFamily="sans-serif-condensed"
+                                android:text=" crop type"
+                                android:textColor="#E65F55"
+                                android:textSize="14dp"
+                                android:textStyle="bold" />
+
+
+                            <Spinner
+                                android:id="@+id/spinner6"
+                                android:layout_width="match_parent"
+                                android:layout_height="23dp" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="420dp"
+            android:background="@drawable/ultashp3"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="6dp"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="97dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="10dp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical"
+                    android:text=" Start Date"
+                    android:textColor="@color/black"
+                    android:textSize="14dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="10dp"
+                    android:background="@drawable/spnr3"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center"
+                    android:text=" 17-03-2023"
+                    android:textColor="#434242"
+                    android:textSize="16dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="6dp"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="97dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="10dp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical"
+                    android:text=" Completed Date"
+                    android:textColor="@color/black"
+                    android:textSize="14dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="10dp"
+                    android:background="@drawable/spnr3"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center"
+                    android:text=" 18-03-2023"
+                    android:textColor="#434242"
+                    android:textSize="16dp"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="6dp"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="97dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="10dp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical"
+                    android:text=" No of Day's"
+                    android:textColor="@color/black"
+                    android:textSize="14dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="10dp"
+                    android:background="@drawable/spnr3"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center"
+                    android:text=" 1"
+                    android:textColor="#434242"
+                    android:textSize="16dp"
+                  />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="6dp"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="97dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="10dp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical"
+                    android:text=" Machine start"
+                    android:textColor="@color/black"
+                    android:textSize="14dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="10dp"
+                    android:background="@drawable/spnr3"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center"
+                    android:text=" 2023"
+                    android:textColor="#434242"
+                    android:textSize="16dp"
+                     />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="6dp"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="97dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="10dp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical"
+                    android:text=" Machine End"
+                    android:textColor="@color/black"
+                    android:textSize="14dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="10dp"
+                    android:background="@drawable/spnr3"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center"
+                    android:text=" 2600"
+                    android:textColor="#434242"
+                    android:textSize="16dp"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="6dp"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="97dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="10dp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical"
+                    android:text=" Hour spent"
+                    android:textColor="@color/black"
+                    android:textSize="14dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="10dp"
+                    android:background="@drawable/spnr3"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center"
+                    android:text=" 456"
+                    android:textColor="#434242"
+                    android:textSize="16dp"
+                     />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="29dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="6dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="150dp"
+                    android:layout_height="27dp"
+                    android:background="@drawable/spnr2">
+
+                    <Spinner
+                        android:id="@+id/spinner1"
+                        android:layout_width="149dp"
+                        android:layout_height="27dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="150dp"
+                    android:layout_height="27dp"
+                    android:layout_marginStart="10dp"
+                    android:background="@drawable/spnr2">
+
+
+                    <Spinner
+                        android:id="@+id/spinner2"
+                        android:layout_width="149dp"
+                        android:layout_height="27dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="305dp"
+                android:layout_height="27dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/spnr2">
+
+                <Spinner
+                    android:id="@+id/spinner3"
+                    android:layout_width="305dp"
+                    android:layout_height="27dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="6dp"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="97dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="15dp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center_vertical"
+                    android:text=" Submitaed by"
+                    android:textColor="@color/black"
+                    android:textSize="14dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="220dp"
+                    android:layout_height="match_parent"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center"
+                    android:text="rvnkrsatya@gmail.com "
+                    android:textColor="#434242"
+                    android:textSize="15dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="115dp"
+                    android:layout_height="43dp"
+                    android:backgroundTint="#DADADC"
+                    android:text="Cancel"
+                    android:textStyle="bold"
+                    android:fontFamily="sans-serif-condensed"
+                    android:textColor="#B61409" />
+
+                <Button
+                    android:id="@+id/button6"
+                    android:layout_width="115dp"
+                    android:layout_height="43dp"
+                    android:backgroundTint="#DADADC"
+                    android:text="Submit"
+                    android:textStyle="bold"
+                    android:fontFamily="sans-serif-condensed"
+                    android:layout_marginStart="15dp"
+                    android:textColor="#051883" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>

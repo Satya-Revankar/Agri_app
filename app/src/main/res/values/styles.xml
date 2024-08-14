@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="SwitchTextAppearance" parent="@android:style/TextAppearance.Holo.Small">
+        <item name="android:textColor">@drawable/text_color_selector</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+   <!-- <color name="spinner_text_color">#FF0000</color> &lt;!&ndash; Red color &ndash;&gt;
+    <color name="spinner_item_selected_color">#00FF00</color> &lt;!&ndash; Green color for selected item--> -->
+
+
+</resources>

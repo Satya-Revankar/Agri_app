@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F5F6F7"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/curveor"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+
+                <LinearLayout
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/year"
+                        android:layout_width="70dp"
+                        android:layout_height="match_parent"
+                        android:text="Year"
+                        android:textStyle="bold"
+                        android:fontFamily="sans-serif-condensed"
+                        android:textColor="@color/white"
+                        android:textSize="15dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="7dp">
+
+                    <TextView
+                        android:id="@+id/year1"
+                        android:layout_width="82dp"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/white"
+                        android:text="2023"
+                        android:textSize="15dp" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="5dp">
+
+                    <TextView
+                        android:id="@+id/Cluster"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textStyle="bold"
+                        android:text="Cluster"
+                        android:fontFamily="sans-serif-condensed"
+                        android:textColor="@color/white"
+                        android:textSize="15dp" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="145dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="23dp">
+
+                    <TextView
+                        android:id="@+id/Cluster1"
+                        android:layout_width="130dp"
+                        android:layout_height="wrap_content"
+                        android:text="Aurangabad"
+                        android:textColor="@color/white"
+                        android:textSize="15dp" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+
+                <LinearLayout
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/Destrict"
+                        android:layout_width="70dp"
+                        android:layout_height="match_parent"
+                        android:text="Destrict"
+                        android:fontFamily="sans-serif-condensed"
+                        android:textColor="@color/white"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp">
+
+                    <TextView
+                        android:id="@+id/destrict1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="AhmedNagar"
+                        android:textColor="@color/white"
+                        android:textSize="15dp"
+                        />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp">
+
+                    <TextView
+                        android:id="@+id/Taluk"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textStyle="bold"
+                        android:text="Taluka"
+                        android:fontFamily="sans-serif-condensed"
+                        android:textColor="@color/white"
+                        android:textSize="15dp"
+                        />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="89dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="25dp">
+
+                    <TextView
+                        android:id="@+id/Taluk1"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/white"
+                        android:text="Ankola"
+                        android:textSize="15dp" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+
+                <LinearLayout
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/Village"
+                        android:layout_width="70dp"
+                        android:layout_height="wrap_content"
+                        android:text="Village"
+                        android:textStyle="bold"
+                        android:fontFamily="sans-serif-condensed"
+                        android:textColor="@color/white"
+                        android:textSize="15dp"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="106dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp">
+
+                    <TextView
+                        android:id="@+id/village"
+                        android:layout_width="84dp"
+                        android:layout_height="match_parent"
+                        android:text="Ankola"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:textSize="15dp" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/Submitter"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="BankName"
+                        android:textStyle="bold"
+                        android:fontFamily="sans-serif-condensed"
+                        android:textColor="@color/white"
+                        android:textSize="15dp"
+                        />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="89dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp">
+
+                    <TextView
+                        android:id="@+id/submitter1"
+                        android:layout_width="193dp"
+                        android:layout_height="match_parent"
+                        android:textColor="@color/white"
+                        android:text="Approved"
+                        android:textSize="15dp" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+
+                <LinearLayout
+                    android:layout_width="76dp"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/BankName"
+                        android:layout_width="76dp"
+                        android:layout_height="wrap_content"
+                        android:text="SubmitedBy"
+                        android:fontFamily="sans-serif-condensed"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:textSize="15dp"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="2dp">
+
+                    <TextView
+                        android:id="@+id/Bankname1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif"
+                        android:text="satya shankar revankar"
+                        android:textColor="@color/white"
+                        android:textSize="15dp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="28dp"
+            android:layout_marginTop="-1dp"
+            android:layout_marginStart="150dp"
+            android:background="#DF847E"
+            android:orientation="vertical">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="71dp"
+            android:layout_marginTop="-27dp"
+            android:background="@drawable/curvebtn"
+            android:orientation="vertical">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="-92dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="108dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5dp"
+                app:cornerRadius="30dp"
+                android:backgroundTint="#FFFFFF"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Cancel"
+                android:textColor="#D50D0D"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="164dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                app:cornerRadius="30dp"
+                android:backgroundTint="#FFFFFF"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Verify n Submit"
+                android:textColor="#0F0AAC"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <!--
+                <LinearLayout
+                    android:layout_width="266dp"
+                    android:layout_height="82dp"
+                    android:layout_marginStart="160dp"
+                    android:layout_marginTop="0dp"
+                    android:background="@drawable/curve1">
+
+                </LinearLayout>-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="501dp"
+            android:layout_marginTop="-3dp"
+            android:background="@drawable/curveee"
+            android:orientation="vertical">
+            <ListView
+                android:id="@+id/listView"
+                android:layout_width="match_parent"
+                android:layout_height="450dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

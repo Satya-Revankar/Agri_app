@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:fillViewport="true">
+
+
+    <LinearLayout
+        android:layout_width="376dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical">
+
+       <!-- <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="26dp"
+            android:text="Student name"
+            android:textStyle="bold"
+            android:textColor="@color/teal_700" />
+
+        <TextView
+            android:layout_width="74dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="93dp"
+            android:layout_marginTop="-26dp"
+            android:text="*"
+            android:textStyle="bold"
+            android:textColor="@color/black" />-->
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Student Name *"
+            android:textStyle="bold"
+            android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ "
+            android:textColor="@color/black"/>
+
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="376dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical">
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:hint="Student Name*">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="376dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical">
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:hint="Student Name*">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+        </com.google.android.material.textfield.TextInputLayout>
+    </LinearLayout>
+</LinearLayout>
